@@ -1,0 +1,105 @@
+<form role="form" class="form-horizontal">
+    
+    <input type ="hidden" id="id" value ="[$id]" />
+    <input type ="hidden" id="idCli" value ="[$idCli]" />
+
+    <div class="form-group">
+        
+        <div class="col-md-6">
+            
+            <label for="cliente">Cliente:</label>
+            <input type="text" readonly class="form-control" id="cliente" value ="[$cliente]">
+            <div class="fade"  style="max-height: 200px; height: auto; overflow: hidden; overflow-y: scroll" id="respCliente"></div>
+            
+        </div>
+        
+        <div class="col-md-3">
+            <label for="alterar">&nbsp;</label>
+            <button type="button" id="alterar" class="btn btn-warning form-control">
+                
+                Alterar Cliente
+                
+            </button>
+        </div>
+        
+    </div>
+    
+    
+        <div class="form-group">
+
+            <div class="col-md-6">
+
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" readonly id="email" value ="[$email]" placeholder="example@server.com">
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-md-3">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" readonly value="[$telefone]" class="form-control" />
+            </div>
+
+        </div>
+        
+        
+        <div class="panel panel-default">
+            
+            <div class="panel-title text-center bg-success">
+                
+                <b>Produto</b>
+            
+            </div>
+        </div>
+        
+        <div class="form-group">
+            
+            <input type ="hidden" id="idProd" value ="[$idProd]" />
+        
+            <div class="col-md-6">
+
+                <label for="produto">Produto:</label>
+                <input type="text" readonly class="form-control" id="produto" value ="[$produto]">
+                <div class="fade" style="max-height: 200px; height: auto; overflow: hidden; overflow-y: scroll" id="respProduto"></div>
+
+            </div>
+            
+            <div class="col-md-3">
+            <label for="alterarp">&nbsp;</label>
+            <button type="button" id="alterarp" class="btn btn-warning form-control">
+                
+                Alterar Produto
+                
+            </button>
+        </div>
+        
+        </div>
+        
+        
+            <div class="form-group">
+
+                <div class="col-md-3">
+
+                    <label for="preco">Preço:</label>
+                    <input type="text" class="form-control" readonly id="preco" value ="[$preco]">
+
+                </div>
+                
+                <div class="col-md-3">
+
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" readonly value="1" class="form-control" />
+                </div>
+                
+            </div>
+            
+        
+        
+
+        
+
+</form>    

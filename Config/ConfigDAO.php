@@ -12,7 +12,7 @@
                 'host'      => 'localhost',
                 'user'      => 'root',
                 'password'  => 'root',
-                'dbname'    => 'serma'
+                'dbname'    => 'CRUD'
 
                 );
             

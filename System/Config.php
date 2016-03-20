@@ -4,14 +4,15 @@
     
     session_start();
     
-    $app    = '/Serma';
+    $app    = '/CRUD';
     
     $layouts    = array(
         
         'main'      => 'layout.html',
         'offline'   => 'layout_offline.html',
         'online'    => 'layout_online.html',
-        '404'       => '404.html'
+        '404'       => '404.html',
+        'ajax'       => 'ajax.html'
         
     );
     

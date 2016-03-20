@@ -21,6 +21,8 @@
         }
 
         public function setFile($module, $file){
+            
+            $module     = str_replace("\\", "/", $module);
             $this->file = HOME."Modules/$module/View/$file.html";
         }
 

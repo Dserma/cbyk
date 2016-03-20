@@ -7,6 +7,8 @@
         
         public function __construct($module = null, $params = null) {
             
+            $module     = str_replace("\\", "/", $module );
+            
             if( count($params) === 0 ){
             
                 if( !@include("Modules/$module/Controller/Index.php") ){

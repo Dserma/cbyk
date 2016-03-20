@@ -15,16 +15,28 @@
                  new Load('Main');
             });
             
-            $router->add('/Users', function() {
-                new Load('Users');
+            $router->add('/Produtos', function() {
+                new Load('Produtos');
             });
             
-            $router->add('/Users/.+', function($action) {
-                new Load('Users', array( 'action' => $action ));
+            $router->add('/Produtos/.+', function($action) {
+                new Load('Produtos', array( 'action' => $action ) );
             });
             
-            $router->add('/Users/.+/.+', function($action, $value) {
-                new Load('Users', array( 'action' => $action, "value" => $value ));
+            $router->add('/Clientes', function() {
+                new Load('Clientes');
+            });
+            
+            $router->add('/Clientes/.+', function($action) {
+                new Load('Clientes', array( 'action' => $action ) );
+            });
+            
+            $router->add('/Pedidos', function() {
+                new Load('Pedidos');
+            });
+            
+            $router->add('/Pedidos/.+', function($action) {
+                new Load('Pedidos', array( 'action' => $action ) );
             });
             
             

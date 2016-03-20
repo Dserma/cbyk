@@ -1,0 +1,99 @@
+<div class="panel panel-default">
+    
+    <div class="panel-heading">
+        
+        <div class="panel-title">
+            
+            <h4>Produtos - Listagem </h4>
+
+            <div class="text-right">
+                
+                <button class ="btn btn-success btn-novo">
+                    
+                    <span class="glyphicon glyphicon-plus"></span>
+                    Novo Produto
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+        
+        <div class="panel-body">
+            
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                
+                [$produtos]
+                
+            </div>
+            
+        </div>
+    
+    <div class="panel-footer">
+        
+        Listando [$x] produto(s)
+        
+    </div>
+        
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id ="modalProd">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header bg-primary">
+            <h4 class="modal-title">
+                <span class="glyphicon glyphicon-pencil"></span>
+                &nbsp; Edição de Produto
+                
+            </h4>
+        </div>
+        <div class="modal-body modal-body-form">
+        </div>
+        <div class="modal-footer">
+            <div class="text-right">
+                <button class="btn btn-danger btn-cancel" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                    &nbsp;Cancelar
+                </button>
+                <button class="btn btn-success btn-grava">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    &nbsp;Gravar
+                </button>
+            </div>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id ="modalMsg">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header bg-primary">
+            <h4 class="modal-title">
+                <span class="glyphicon glyphicon-remove"></span>
+                &nbsp; Exclusão de Produto
+                
+            </h4>
+        </div>
+        <div class="modal-body">
+            
+            <h3 class="text-danger">Confirma a exclusão do produto?</h3>
+            
+        </div>
+        <div class="modal-footer">
+            <div class="text-right">
+                <button class="btn btn-danger" data-dismiss="modal">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                    &nbsp;Não
+                </button>
+                <button class="btn btn-success btn-sim">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    &nbsp;Sim
+                </button>
+            </div>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
